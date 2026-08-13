@@ -1,0 +1,8 @@
+venv/
+dashboard_venv/
+__pycache__/
+*.pyc
+.env
+serviceAccountKey.json
+ngrok.exe
+rag/chroma_db/

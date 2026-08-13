@@ -1,0 +1,12 @@
+backend/.env
+backend/serviceAccountKey.json
+backend/venv/
+backend/eval_venv/
+backend/__pycache__/
+backend/rag/chroma_db/
+backend/rag/chroma_db_backup/
+backend/rag/fastembed_cache/
+frontend/build/
+frontend/.dart_tool/
+frontend/android/app/google-services.json
+frontend/ios/Runner/GoogleService-Info.plist
