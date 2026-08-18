@@ -261,7 +261,7 @@ def chat_with_worker(worker_message, language="auto", worker_phone="",
         prompt = f"{mcp_context}\nWorker's question: {worker_message}"
 
     response = groq_client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=[
             {"role": "system", "content": _build_chatbot_backstory(language)},
             {"role": "user", "content": prompt}

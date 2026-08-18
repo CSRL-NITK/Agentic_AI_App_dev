@@ -1,1 +1,0 @@
-git remote add origin https://github.com/Suraksha12345/labourconnect-app.git
